@@ -1,0 +1,168 @@
+
+/*STYLES IN INDEX.PHP*/
+
+	
+				/*textarea.msgAllCongs {*/
+				textarea{
+				width: 600px;
+				height: 120px;
+				border: 3px solid #bbb;
+				padding: 5px;
+				font-family: Tahoma, sans-serif;
+				background-image: url(bg.gif);
+				background-position: bottom right;
+				background-repeat: no-repeat;
+				display: inline-block;
+									}
+				
+				textarea {
+				width: 600px;
+				height: 120px;
+				border: 3px solid #bbb;
+				padding: 5px;
+				font-family: Tahoma, sans-serif;
+				background-image: url(bg.gif);
+				background-position: bottom right;
+				background-repeat: no-repeat;
+				display: inline-block;
+									}				
+									
+			div{
+				color:black;
+				display: inline-block;
+			}
+
+			form{
+				display: inline-block;
+			}
+
+			.toggleHide{
+				display: none;
+			}
+
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*Sort out footer to stay at bottom*/
+	body {
+	   margin:0;
+	   padding:0;
+	   height:95%;
+	}
+	#html-container {
+	   min-height:100%;
+	   position:relative;
+	}
+
+	#main-header {
+		text-align: center;
+	   background:#ff0;
+	   /*padding:10px;*/
+	}
+
+
+	#body {
+	   padding:10px;
+	   padding-bottom:60px;   /* Height of the footer */
+	}
+	#main-footer {
+	   position:absolute;
+	   bottom:0;
+	   width:100%;
+	   height:50px;   /* Height of the footer */
+	   background:#5b2c6f;
+	   opacity: .9;
+	   border: 5px;
+	   border-color: red;
+	}
+
+
+body {
+	background: url('../images/mainImage.jpg') no-repeat;  /*find another way of naming this*/
+	background: cover;
+	/*font-family: Arial;*/
+	color: white;
+}
+
+	#main-header{
+	text-align:center;
+	background-color:#5b2c6f; /*https://htmlcolorcodes.com/color-chart/ */
+	opacity: 0.9;
+	color:white;
+	padding:2px;
+	border:2px;
+}
+
+	#main-footer{
+	text-align:center;
+	font-size:18px;
+	position: absolute;
+	margin-top: auto;
+}
+
+
+.nav-bar{
+	display: inline-block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+nav ul {
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+}
+
+nav ul li {
+	display: inline;
+
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+
+
+
+}
+
+nav ul li a{
+
+	text-decoration: none;
+	color: white;
+
+	transition: transform 0.5s;
+}
+
+nav ul li a:hover {
+	background-color: green;
+	display: block;
+
+	transform: rotate(10deg);
+
+
+}
+
+nav ul li ul li {
+	display: none; 
+
+
+}
+
+nav ul li:hover ul li {
+	display: block;
+
+
+}
+
+
