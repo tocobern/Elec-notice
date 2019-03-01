@@ -1,0 +1,66 @@
+﻿Setup Notice Board for Kingdom Hall.
+
+1) How to prevent applications from running 
+	https://www.youtube.com/watch?v=jOxEPalTaHw
+	You need Gpeditor
+		You will need Windows pro to get gpedit
+		
+	Setup Kiost (this is a better idea)
+		https://www.youtube.com/watch?v=B-AEZUJx9Bg
+			this won't work because it does not allow you to use browsers
+			
+		
+	https://www.youtube.com/watch?v=tGnRpgC7af4
+		Passdoor locker - external applications
+		
+	https://www.youtube.com/watch?v=ja7R50a3gdA - Setup Windows Kiost 
+	
+	https://docs.microsoft.com/en-us/windows/configuration/lock-down-windows-10-to-specific-apps
+		I think this is limited to While Windows 10 offers a built-in AppLocker service, it’s limited to Windows Enterprise and Education versions. 
+	
+	
+2) Use Browser as the main Application
+
+3) Use Dropbox for allowing documents downloads
+
+4)CSS sites
+	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	https://www.youtube.com/watch?v=JJSoEo8JSnc - Flexbox CSS in 20 minutes
+
+5) HTML 
+	https://www.makeuseof.com/tag/7-cool-html-effects-that-anyone-can-add-to-their-website-nb/
+
+
+SITE MAP
+
+1) Download Sublime - done
+2) Learn html - done
+3) Learn CSS = done
+4) Learn JavaScript - done
+5) Learn CSS Flexbox - done
+6) Learn CSS grid - done
+7) Read contents of folder using JavaScript  --CAN'T BE DONE
+8) Install PHP - https://www.apachefriends.org/index.html - done
+9) Read contents of folder using php  --DONE
+
+
+iframe styling 
+https://www.lifewire.com/iframes-and-css-3468669
+this provided a nice angel for the iframe
+
+https://htmlcolorcodes.com/
+
+Set footer to bottem - https://matthewjamestaylor.com/bottom-footer
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
+
+[OneDrive account]
+GalliardENoticeBoard@Outlook.com
+Password: Revelation214
+Pc pin number: 2134
+
+
