@@ -63,4 +63,14 @@ GalliardENoticeBoard@Outlook.com
 Password: Revelation214
 Pc pin number: 2134
 
+reponsive iframe 
+https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/
+https://css-tricks.com/snippets/jquery/fit-iframe-to-content/
+
+
+
+
+
+
+
 

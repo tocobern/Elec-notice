@@ -18,7 +18,7 @@
 <br>
 <br>
 <br>
-	<details>
+	<details open>
 		<summary>See Notices & Add Meeting attendance..</summary>
 
 		<div class="attendanceCount">
@@ -155,6 +155,7 @@
 <BR>
 
 </main>
+
 		<!--TRY SORTING THE FILES-->
 		<?php
 			$files = array();
@@ -166,6 +167,7 @@
 			}
 
 			natsort($files); // sort.
+			$files = array_reverse($files, true); //reverse the order so latest comes first.
 
 			/*echo "Files found :" . count($files) . ". Only 12 items displayed!";
 			echo "<br>";
@@ -181,7 +183,7 @@
 					  
 
 					echo "<div class=\"sections\">";
-					echo "<iframe src=\"docs\\$file\">";
+					echo "<iframe src=\"docs\\$file\" style=\"width:100%; height:100%;\">";
 					echo "</iframe>";
 					echo "<br>";
 					echo "<br>";

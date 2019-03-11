@@ -1,0 +1,144 @@
+
+D:\xampp\htdocs\elec-notice\includes>REM copy from Dropbox to xampp folder 
+
+D:\xampp\htdocs\elec-notice\includes>REM BUSH HILL PARK 
+
+D:\xampp\htdocs\elec-notice\includes>Robocopy /mir "Y:\elec-notice\BushHillDocs" "D:\xampp\htdocs\elec-notice\BushHillPark\docs" 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 04 March 2019 21:36:25
+   Source = Y:\elec-notice\BushHillDocs\
+     Dest : D:\xampp\htdocs\elec-notice\BushHillPark\docs\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   3	Y:\elec-notice\BushHillDocs\
+	  *EXTRA File 		  964474	01_20190214-g_E_201803.pdf
+	  *EXTRA File 		  865528	02_20180214-g_E_201807.pdf
+	  *EXTRA File 		   1.2 m	03_20190117-g_E_201811.pdf
+	    New File  		  964474	01_20190214-g_E_201803.pdf  0%   27%   54%   81%  100%  
+	    New File  		  865528	02_20180214-g_E_201807.pdf  0%   30%   60%   90%  100%  
+	    New File  		   1.2 m	03_20190117-g_E_201811.pdf  0%   19%   39%   59%   79%   98%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         3         3         0         0         0         3
+   Bytes :    3.01 m    3.01 m         0         0         0    3.01 m
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             6673183 Bytes/sec.
+   Speed :             381.842 MegaBytes/min.
+   Ended : 04 March 2019 21:36:26
+
+
+D:\xampp\htdocs\elec-notice\includes>REM JUBILEE PARK  
+
+D:\xampp\htdocs\elec-notice\includes>Robocopy /mir "Y:\elec-notice\JubileeParkDocs" "D:\xampp\htdocs\elec-notice\JubileePark\docs" 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 04 March 2019 21:36:26
+   Source = Y:\elec-notice\JubileeParkDocs\
+     Dest : D:\xampp\htdocs\elec-notice\JubileePark\docs\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   2	Y:\elec-notice\JubileeParkDocs\
+	  *EXTRA File 		       0	New Microsoft Word Document.docx
+	  *EXTRA File 		       0	New Text Document.txt
+	    New File  		       0	New Microsoft Word Document.docx100%  
+	    New File  		       0	New Text Document.txt100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         2         2         0         0         0         2
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : 04 March 2019 21:36:27
+
+
+D:\xampp\htdocs\elec-notice\includes>REM LEA VALLEY 
+
+D:\xampp\htdocs\elec-notice\includes>Robocopy /mir "Y:\elec-notice\LeaVallyDocs" "D:\xampp\htdocs\elec-notice\LeaValley\docs" 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 04 March 2019 21:36:27
+   Source = Y:\elec-notice\LeaVallyDocs\
+     Dest : D:\xampp\htdocs\elec-notice\LeaValley\docs\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	Y:\elec-notice\LeaVallyDocs\
+	  *EXTRA File 		    8746	New Microsoft Excel Worksheet.xlsx
+	    New File  		    8746	New Microsoft Excel Worksheet.xlsx  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         1         1         0         0         0         1
+   Bytes :     8.5 k     8.5 k         0         0         0     8.5 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :               66763 Bytes/sec.
+   Speed :               3.820 MegaBytes/min.
+   Ended : 04 March 2019 21:36:28
+
+
+D:\xampp\htdocs\elec-notice\includes>REM POLISH 
+
+D:\xampp\htdocs\elec-notice\includes>Robocopy /mir "Y:\elec-notice\PolishDocs" "D:\xampp\htdocs\elec-notice\Polish\docs" 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 04 March 2019 21:36:28
+   Source = Y:\elec-notice\PolishDocs\
+     Dest : D:\xampp\htdocs\elec-notice\Polish\docs\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	Y:\elec-notice\PolishDocs\
+	  *EXTRA File 		       0	New Text Document.txt
+	    New File  		       0	New Text Document.txt100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         1         1         0         0         0         1
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : 04 March 2019 21:36:28
+

@@ -19,7 +19,7 @@
 <br>
 <br>
 <br>
-	<details>
+	<details open>
 		<summary>See Notices & Add Meeting attendance..</summary>
 
 		<form action="inc/pol_attendants.inc.php" method='POST'> <!--process the attendance-->
@@ -163,6 +163,7 @@
 			}
 
 			natsort($files); // sort.
+			$files = array_reverse($files, true); //reverse the order so latest comes first.
 
 			/*echo "Files found :" . count($files) . ". Only 12 items displayed!";
 			echo "<br>";

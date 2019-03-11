@@ -23,7 +23,7 @@
 <br>
 <br>
 <br>
-	<details>
+	<details open>
 		<summary>See Notices & Add Meeting attendance..</summary>
 
 		<form action="inc/bh_attendants.inc.php" method='POST'> <!--process the attendance-->
@@ -157,9 +157,16 @@
 
 </main>
 		<!--TRY SORTING THE FILES-->
+		
+		<p>this is an iframe</p>
+		<iframe src="O:\temp\20190115_204017 1.jpg"> </iframe>
+		
+		
+		
 		<?php
 			$files = array();
 			$dir = opendir('docs/'); // open the cwd..also do an err check.
+			
 			while(false != ($file = readdir($dir))) {
 			        if(($file != ".") and ($file != "..") and ($file != "index.php")) {
 			                $files[] = $file; // put in array.
@@ -167,6 +174,7 @@
 			}
 
 			natsort($files); // sort.
+			$files = array_reverse($files, true); //reverse the order so latest comes first.
 
 			/*echo "Files found :" . count($files) . ". Only 12 items displayed!";
 			echo "<br>";
@@ -180,7 +188,9 @@
 			        /*echo("<a href='$file'>$file</a> <br />\n");*/
 		    		/*if (strpos ($file, 'pdf') !== false) {  #check if this is a pdf file*/
 					  echo "<div class=\"sections\">";
-					  echo "<iframe src=\"docs\\$file\">";
+					  
+					  echo "<iframe src=\"docs\\$file\">"; 
+
 					  echo "</iframe>";
 					  echo "<br>";
 					 	echo "<br>";
